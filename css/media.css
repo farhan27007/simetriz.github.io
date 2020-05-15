@@ -1,0 +1,231 @@
+/* media screen*/
+@media (max-width: 767px) {
+  /* nav */
+  .navbar-default {
+    background-color: #fff;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+  }
+  .navbar-default .navbar-nav > li > a  {
+    color: rgb(102, 102, 102) !important;
+  }
+  .navbar-default .navbar-nav > li > a:hover,
+  .navbar-default .navbar-nav > li > a:focus,
+  .navbar-default .navbar-nav > li > a:hover{
+    color:#5F78EA !important;
+    transition: all 0.2s ease-in-out;
+    border-bottom:2px solid transparent !important;
+  }
+  .navbar-default {
+    padding-top: 5px;
+    padding-bottom: 12px;
+  }
+  .navbar-default.scrolled .navbar-toggle .icon-bar {
+    background-color: #000;
+  }
+  .navbar-default .navbar-toggle .icon-bar {
+    background-color: #000;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    background-color: #f4f8fa;
+    font-size: 15px;
+    font-family: brush;
+    color: #8d97ad;
+    padding: 15px 28px;
+    padding-right: 65px !important;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
+    background-color: #f4f8fa;
+    color: #5F78EA;
+  }
+  .menu-s {
+    padding: 0px;
+  }
+  /* nav */
+
+  /* bgimage */
+  .bgimage {
+    margin-top: 20px;
+    margin-right: 0px;
+    height: 388px;
+    background:linear-gradient( rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9) ),
+    url(../images/rev.png);
+    background-repeat: no-repeat;
+    background-position: center 138px;
+    background-size: 95%;
+  }
+  .word-target {
+   width: auto;
+   font-size: 32px;
+ }
+ .sub-word-target {
+  width: auto;
+  font-size: 14.9px;
+  }
+  /* bgimage */
+
+  /* ----------------------- */
+
+  /* layanan kami */
+  .mini-word {
+    font-size: 11px;
+  }
+  .h2-layanan {
+    font-size: 26px;
+  }
+  .grid-layanan {
+    display: block;
+    padding: 13px 3%; 
+  }
+  .title-service {
+    padding: 7px;
+    text-align: center;
+  }
+  .big-title-layanan {
+    text-align: center;
+  }
+  .isi-content-layanan {
+    text-align: center;
+  }
+  /* layanan kami */
+
+  /* ------------------------------ */
+
+  /* backup-bg-cirlce */
+  .backup-bg-circle {
+    -webkit-background-size: 70%;
+    background-size: 67%;
+    background-position: right 545px;
+  }
+  /* backup-bg-cirlce */
+
+  /* ------------------------------ */
+  /* tentang-kami */
+  .tentang-kami {
+    margin-top: 50px;
+    margin-bottom: 5px;
+  }
+  .backup-title-about {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .word-about {
+    font-size: 27px;
+    line-height: 1.4em;
+  }
+  .cs-media-content {
+    text-align: left;
+  }
+  /* tentang-kami */
+
+  /* ----------------------------- */
+
+  /* alasan pilih simetriz */
+  .alasan-pilih {
+    margin-top: 20px;
+  }
+  .img-mockup-alasan {
+    margin-top: 4px;
+    padding-bottom: 13px;
+  }
+  /* alasan pilih simetriz */
+
+  /* ----------------------------- */
+
+  /* portfolio kami */
+  .custom-mt-project {
+    margin-top: 13px !important;
+  }
+  .sli-de {
+    margin-top: -25px;
+  }
+  /* portfolio kami */
+
+  /* ----------------------------- */
+
+  /* slide-testimonial */
+  .slide-testi {
+    margin-top: -22px;
+    padding-bottom: 0px;
+  }
+  /* slide-testimonial */
+
+  /* ----------------------------- */
+
+  /* section-join */
+  .custom-mt-join {
+    margin-top:16.5px !important;
+  }
+  .word-join {
+    padding: 0px;
+    font-size: 16px;
+    margin: 0;
+    margin-top: 10px;
+    letter-spacing: 0.3px;
+  }
+  .cs-btn-join {
+    padding: 10.5px 27px;
+    font-size: 14.50px;
+  }
+  /* section-join */
+
+  /* ----------------------------- */
+
+  /* client-logo-slider */
+  .cs-client-logo {
+    margin-top: 70px !important;
+    margin-bottom: 20px !important;
+  }
+  /* client-logo-slider */
+
+  /* ----------------------------- */  
+
+  /* footer */
+  .main-flex {
+    display:  block;
+  }
+  /* footer */
+  /* ------------------------------ */
+}
+
+@media (max-width: 769px) {
+  /* layanan */
+  .h2-layanan {
+    font-size: 26px;
+  }
+  .grid-layanan {
+    display: block;
+    padding: 13px 3%; 
+  }
+  .title-service {
+    padding: 7px;
+    text-align: center;
+  }
+  .big-title-layanan {
+    text-align: center;
+  }
+  .isi-content-layanan {
+    text-align: center;
+  }
+  /* layanan */
+
+  /* tentang-kami */
+  .tentang-kami {
+    margin-top: 50px;
+    margin-bottom: 5px;
+  }
+  .backup-title-about {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .word-about {
+    font-size: 27px;
+    line-height: 1.4em;
+  }
+  .cs-media-content {
+    text-align: left;
+  }
+  /* tentang-kami */
+
+  /* footer */
+  /* footer */
+}

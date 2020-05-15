@@ -1,0 +1,124 @@
+			<img src="images/wave-atas.svg" class="img-responsive" alt="" id="portfolio">
+			<div class="container-fluid slide-project">
+				<div class="col-md-12 sub-slide-project">
+
+					<!--  -->
+					<center class="backup-title-layanan custom-mt-project" data-aos="zoom-in">
+						<span class="mini-word">PORTFOLIO</span>
+						<h3 class="h2-layanan">Portfolio Kami
+						</h3>
+						<img src="images/border-divider.svg" class="img-responsive" alt="">	
+					</center>
+					<!--  -->
+
+					<div class="slider responsive">
+
+           <!-- loop -->
+           <div class="img-tem">
+            <a href="https://heylaw.id" target="blank" class="no-outline">
+             <img class="cont-img img-responsive no-outline" src="images/project/heylaw.jpg">
+           </a>
+           <p class="name-project">Heylaw Company profile</p>
+         </div>
+         <!-- loop -->
+
+         <!-- loop -->
+         <div class="img-tem">
+          <a href="https://hafshi.com" target="blank" class="no-outline">
+            <img class="cont-img img-responsive no-outline" src="images/project/hafsh-web.jpg">
+          </a>
+          <p class="name-project">Hafish Institute Company profile</p>
+        </div>
+        <!-- loop -->
+
+        <!-- loop -->
+        <div class="img-tem">
+          <a href="https://smkn8bl.sch.id" target="blank" class="no-outline">
+           <img class="cont-img img-responsive no-outline" src="images/project/sklh-web.png">
+         </a>
+         <p class="name-project">Website Sekolah SMKN 8 BDL</p>
+       </div>
+       <!-- loop -->
+
+       <!-- loop -->
+       <div class="img-tem">
+        <a href="https://caoyuk.netlify.com" target="blank" class="no-outline">
+          <img class="cont-img img-responsive no-outline" src="images/project/mmbc-web.png">
+        </a>
+        <p class="name-project">Caoyuk Company profile</p>
+      </div>
+      <!-- loop -->
+
+      <!-- loop -->
+      <div class="img-tem">
+        <a href="#" target="blank" class="no-outline">
+          <img class="cont-img img-responsive no-outline" src="images/project/compro-high.jpg">
+        </a>
+        <p class="name-project">UI Design Travel Website</p>
+      </div>
+      <!-- loop -->
+    </div>
+  </div>
+
+  <div class="sli-de">
+   <ul>
+    <li class="ic-on prev"><i class="fas fa-chevron-left icon-project-left"></i></li>
+    <li class="ic-on next"><i class="fas fa-chevron-right icon-project-right"></i></li>
+  </ul>
+</div>
+</div>
+<img src="images/wave-bawah.svg" class="img-responsive" alt="">
+
+<script>
+  $(document).ready(function() {
+   $('.responsive').slick({
+        // dots: true,
+        infinite: true,
+        speed: 600,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        prevArrow: $('.prev'),
+        nextArrow: $('.next'),
+        responsive: [{
+        	breakpoint: 1024,
+        	settings: {
+        		slidesToShow: 2,
+        		slidesToScroll: 1,
+                // centerMode: true,
+              }
+
+            }, {
+             breakpoint: 800,
+             settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1,
+              dots: true,
+              infinite: true,
+
+            }
+
+          }, {
+           breakpoint: 600,
+           settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            dots: true,
+            infinite: true,
+
+          }
+        }, {
+        	breakpoint: 480,
+        	settings: {
+        		slidesToShow: 1,
+        		slidesToScroll: 1,
+        		dots: true,
+        		infinite: true,
+        		autoplay: true,
+        		autoplaySpeed: 2000,
+        	}
+        }]
+      });
+ });
+</script>
