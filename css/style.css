@@ -332,6 +332,15 @@ canvas{
 .cont-img {
   object-fit: cover;
   border-radius: 4px;
+  height: 250px;
+  width: 100%;
+}
+@media (max-width: 767px) {
+  .cont-img {
+    object-fit: contain;
+    height: auto;
+    width: auto;
+  }
 }
 .ic-on{
   display: inline !important;
