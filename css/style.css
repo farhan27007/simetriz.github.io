@@ -332,7 +332,7 @@ canvas{
 .cont-img {
   object-fit: cover;
   border-radius: 4px;
-  height: 250px;
+  height: 220px;
   width: 100%;
 }
 @media (max-width: 767px) {
